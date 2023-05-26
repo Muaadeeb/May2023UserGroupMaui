@@ -1,4 +1,6 @@
-﻿namespace MyMauiApp
+﻿using MyMauiApp.Pages.Lizards;
+
+namespace MyMauiApp
 {
     public partial class MainPage : ContentPage
     {
@@ -19,6 +21,11 @@
                 CounterBtn.Text = $"Clicked {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
+        }
+
+        private void OnLizardClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LizardList());
         }
     }
 }

@@ -49,7 +49,29 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\liz1.jfif" />
+	  <None Remove="Resources\Images\liz10.png" />
+	  <None Remove="Resources\Images\liz2.jfif" />
+	  <None Remove="Resources\Images\liz3.jfif" />
+	  <None Remove="Resources\Images\liz4.jfif" />
+	  <None Remove="Resources\Images\liz5.jfif" />
+	  <None Remove="Resources\Images\liz6.jfif" />
+	  <None Remove="Resources\Images\liz7.png" />
+	  <None Remove="Resources\Images\liz8.png" />
+	  <None Remove="Resources\Images\liz9.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Pages\Lizards\LizardDetail.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Lizards\LizardList.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>

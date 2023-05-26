@@ -4,6 +4,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageId>CrossPlatformRazorClassLibrary</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>TJI</Authors>
+	  <Company>Orion Tech</Company>
+
   </PropertyGroup>
 
 

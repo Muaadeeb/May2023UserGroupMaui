@@ -35,6 +35,13 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Button
+                x:Name="LizardBtn"
+                Text="List Lizards"
+                SemanticProperties.Hint="Show me the Lizards!"
+                Clicked="OnLizardClicked"    
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 
